@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Hanken Grotesk', system-ui, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+</style>
+</helmet>
+
+<!-- ============ BRAND SECTION HEADER ============ -->
+<div style="position:absolute;left:80px;top:36px;font:700 13px 'JetBrains Mono',monospace;letter-spacing:.18em;color:#9A938A">01 — BRAND SYSTEM</div>
+
+<!-- Logo options frame -->
+<div style="position:absolute;left:80px;top:80px;width:560px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Logo — original marks</div>
+  <div style="background:#fff;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:32px">
+
+    <!-- Primary lockup -->
+    <div style="display:flex;align-items:center;gap:16px;padding-bottom:28px;border-bottom:1px solid #F1ECE5">
+      <div style="position:relative;width:64px;height:64px;border-radius:16px;background:#E9604C;box-shadow:0 6px 16px rgba(233,96,76,.32);flex:none">
+        <div style="position:absolute;left:50%;top:13px;bottom:13px;width:7px;margin-left:-3.5px;background:#fff;border-radius:2px"></div>
+        <div style="position:absolute;top:50%;left:13px;right:13px;height:7px;margin-top:-3.5px;background:#fff;border-radius:2px"></div>
+        <div style="position:absolute;left:50%;top:14px;width:18px;height:11px;margin-left:-9px;background:#fff;border-radius:9px 9px 3px 3px"></div>
+      </div>
+      <div>
+        <div style="font-weight:800;font-size:34px;letter-spacing:-.02em;color:#1C1A17;line-height:1">Givin<span style="color:#E9604C">.</span></div>
+        <div class="mono" style="font-size:11px;color:#9A938A;margin-top:6px;letter-spacing:.04em">thoughtful gifting, in your network</div>
+      </div>
+    </div>
+
+    <!-- Three mark explorations -->
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:24px">
+      <div style="text-align:center">
+        <div style="display:flex;justify-content:center;margin-bottom:10px">
+          <div style="position:relative;width:54px;height:54px;border-radius:14px;background:#E9604C">
+            <div style="position:absolute;left:50%;top:11px;bottom:11px;width:6px;margin-left:-3px;background:#fff;border-radius:2px"></div>
+            <div style="position:absolute;top:50%;left:11px;right:11px;height:6px;margin-top:-3px;background:#fff;border-radius:2px"></div>
+            <div style="position:absolute;left:50%;top:12px;width:15px;height:9px;margin-left:-7.5px;background:#fff;border-radius:8px 8px 2px 2px"></div>
+          </div>
+        </div>
+        <div class="mono" style="font-size:9.5px;color:#6B655E;line-height:1.4">A · Gift tile<br><span style="color:#2F8F5B">recommended</span></div>
+      </div>
+      <div style="text-align:center">
+        <div style="display:flex;justify-content:center;margin-bottom:10px">
+          <div style="display:flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#1C1A17;color:#fff;font-weight:800;font-size:30px;letter-spacing:-.03em">G</div>
+        </div>
+        <div class="mono" style="font-size:9.5px;color:#6B655E;line-height:1.4">B · Monogram<br>mono / dark</div>
+      </div>
+      <div style="text-align:center">
+        <div style="display:flex;justify-content:center;margin-bottom:10px;height:54px;align-items:center">
+          <div style="font-weight:800;font-size:26px;letter-spacing:-.02em;color:#1C1A17">giv<span style="position:relative">i<span style="position:absolute;left:50%;top:-9px;width:7px;height:7px;margin-left:-3.5px;background:#E9604C;border-radius:50% 50% 50% 0;transform:rotate(45deg)"></span></span>n</div>
+        </div>
+        <div class="mono" style="font-size:9.5px;color:#6B655E;line-height:1.4">C · Wordmark<br>dot = gift spark</div>
+      </div>
+    </div>
+
+    <!-- Reverse / app icon -->
+    <div style="display:flex;gap:12px;margin-top:24px;padding-top:22px;border-top:1px solid #F1ECE5;align-items:center">
+      <div style="display:flex;align-items:center;gap:10px;background:#1C1A17;border-radius:12px;padding:12px 16px;flex:1">
+        <div style="position:relative;width:26px;height:26px;border-radius:7px;background:#E9604C;flex:none">
+          <div style="position:absolute;left:50%;top:6px;bottom:6px;width:3px;margin-left:-1.5px;background:#fff;border-radius:1px"></div>
+          <div style="position:absolute;top:50%;left:6px;right:6px;height:3px;margin-top:-1.5px;background:#fff;border-radius:1px"></div>
+        </div>
+        <span style="color:#fff;font-weight:800;font-size:18px;letter-spacing:-.01em">Givin<span style="color:#E9604C">.</span></span>
+      </div>
+      <div class="mono" style="font-size:9.5px;color:#9A938A;flex:1;line-height:1.5">Works on dark, light &amp; as a 16px favicon. No LinkedIn trade dress.</div>
+    </div>
+  </div>
+</div>
+
+<!-- Palette & type frame -->
+<div style="position:absolute;left:700px;top:80px;width:360px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Palette &amp; type</div>
+  <div style="background:#fff;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:28px">
+    <div class="mono" style="font-size:10px;letter-spacing:.12em;color:#9A938A;margin-bottom:14px">COLOR</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      <div><div style="height:46px;border-radius:8px;background:#E9604C"></div><div class="mono" style="font-size:9px;color:#6B655E;margin-top:5px">Coral · #E9604C</div></div>
+      <div><div style="height:46px;border-radius:8px;background:#1C1A17"></div><div class="mono" style="font-size:9px;color:#6B655E;margin-top:5px">Ink · #1C1A17</div></div>
+      <div><div style="height:46px;border-radius:8px;background:#2F8F5B"></div><div class="mono" style="font-size:9px;color:#6B655E;margin-top:5px">Sent · #2F8F5B</div></div>
+      <div><div style="height:46px;border-radius:8px;background:#FBF9F6;border:1px solid #ECE7E0"></div><div class="mono" style="font-size:9px;color:#6B655E;margin-top:5px">Cream · #FBF9F6</div></div>
+    </div>
+    <div class="mono" style="font-size:10px;letter-spacing:.12em;color:#9A938A;margin:24px 0 12px">TYPE</div>
+    <div style="font-weight:800;font-size:30px;letter-spacing:-.02em;color:#1C1A17;line-height:1.05">Hanken Grotesk</div>
+    <div style="font-size:13px;color:#6B655E;margin-top:8px;line-height:1.55">Headings &amp; UI. Warm, clean, Nordic-neutral. Aa Bb Cc 0123</div>
+    <div class="mono" style="font-size:13px;color:#1C1A17;margin-top:16px;background:#FBF9F6;border:1px solid #ECE7E0;border-radius:8px;padding:10px 12px">JetBrains Mono — labels, tags, code</div>
+  </div>
+</div>
+
+<!-- ============ EXTENSION SECTION HEADER ============ -->
+<div style="position:absolute;left:80px;top:760px;font:700 13px 'JetBrains Mono',monospace;letter-spacing:.18em;color:#9A938A">02 — CHROME EXTENSION · in context</div>
+
+<!-- Mock profile + extension panel -->
+<div style="position:absolute;left:80px;top:804px;width:980px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Givin panel overlaid on a profile (mock professional network — not LinkedIn)</div>
+  <div style="position:relative;background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;overflow:hidden;height:560px">
+
+    <!-- generic network top bar -->
+    <div style="display:flex;align-items:center;gap:16px;height:48px;background:#2B3A45;padding:0 18px">
+      <div style="display:flex;align-items:center;gap:7px"><div style="width:22px;height:22px;border-radius:5px;background:#5B7383"></div><span style="color:#cfd8de;font-weight:700;font-size:13px;letter-spacing:.02em">net·work</span></div>
+      <div style="flex:1;max-width:240px;height:26px;border-radius:5px;background:#3A4B57"></div>
+      <div style="flex:1"></div>
+      <div style="display:flex;gap:18px;opacity:.5">
+        <div style="width:18px;height:18px;border-radius:4px;background:#5B7383"></div>
+        <div style="width:18px;height:18px;border-radius:4px;background:#5B7383"></div>
+        <div style="width:18px;height:18px;border-radius:4px;background:#5B7383"></div>
+      </div>
+    </div>
+
+    <!-- profile body (muted, placeholder) -->
+    <div style="padding:0 24px">
+      <div style="height:96px;margin:18px 0 0;border-radius:8px 8px 0 0;background:linear-gradient(120deg,#33424d,#46586580)"></div>
+      <div style="display:flex;align-items:flex-end;gap:16px;margin-top:-34px;padding:0 6px">
+        <div style="width:84px;height:84px;border-radius:50%;background:#C9D2D8;border:4px solid #fff"></div>
+        <div style="padding-bottom:8px">
+          <div style="height:16px;width:150px;border-radius:4px;background:#D5DBDF"></div>
+          <div style="height:11px;width:220px;border-radius:4px;background:#E3E7EA;margin-top:8px"></div>
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:18px">
+        <div style="height:30px;width:96px;border-radius:16px;background:#E6EBEE"></div>
+        <div style="height:30px;width:120px;border-radius:16px;background:#EEF1F3"></div>
+      </div>
+      <div style="margin-top:22px">
+        <div style="height:9px;width:80%;border-radius:3px;background:#ECEFF1"></div>
+        <div style="height:9px;width:65%;border-radius:3px;background:#ECEFF1;margin-top:9px"></div>
+        <div style="height:9px;width:72%;border-radius:3px;background:#ECEFF1;margin-top:9px"></div>
+      </div>
+    </div>
+
+    <!-- GIVIN floating launcher -->
+    <div style="position:absolute;right:368px;bottom:26px;display:flex;align-items:center;gap:9px;background:#E9604C;border-radius:30px;padding:10px 16px 10px 12px;box-shadow:0 8px 20px rgba(233,96,76,.4);cursor:pointer">
+      <div style="position:relative;width:22px;height:22px;border-radius:6px;background:#fff;flex:none">
+        <div style="position:absolute;left:50%;top:5px;bottom:5px;width:2.5px;margin-left:-1.25px;background:#E9604C;border-radius:1px"></div>
+        <div style="position:absolute;top:50%;left:5px;right:5px;height:2.5px;margin-top:-1.25px;background:#E9604C;border-radius:1px"></div>
+      </div>
+      <span style="color:#fff;font-weight:700;font-size:13px">Send a gift</span>
+    </div>
+
+    <!-- GIVIN PANEL -->
+    <div style="position:absolute;right:24px;top:64px;width:332px;background:#fff;border-radius:14px;box-shadow:0 16px 50px rgba(28,26,23,.22);border:1px solid #ECE7E0;overflow:hidden">
+      <!-- panel header -->
+      <div style="display:flex;align-items:center;gap:9px;padding:13px 14px;border-bottom:1px solid #F1ECE5">
+        <div style="position:relative;width:24px;height:24px;border-radius:7px;background:#E9604C;flex:none">
+          <div style="position:absolute;left:50%;top:5.5px;bottom:5.5px;width:2.5px;margin-left:-1.25px;background:#fff;border-radius:1px"></div>
+          <div style="position:absolute;top:50%;left:5.5px;right:5.5px;height:2.5px;margin-top:-1.25px;background:#fff;border-radius:1px"></div>
+        </div>
+        <span style="font-weight:800;font-size:15px;color:#1C1A17">Givin<span style="color:#E9604C">.</span></span>
+        <div style="flex:1"></div>
+        <span class="mono" style="font-size:9.5px;color:#2F8F5B;background:#EAF5EE;padding:3px 8px;border-radius:20px">3 free gifts left</span>
+      </div>
+      <!-- recipient -->
+      <div style="display:flex;align-items:center;gap:10px;padding:13px 14px">
+        <div style="width:34px;height:34px;border-radius:50%;background:#C9D2D8;flex:none"></div>
+        <div style="min-width:0">
+          <div style="font-weight:700;font-size:14px;color:#1C1A17">Jenny Daza</div>
+          <div style="font-size:11px;color:#9A938A;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Sales Lead · Talent&amp;Partner</div>
+        </div>
+      </div>
+      <!-- detected moment -->
+      <div style="margin:0 14px;display:flex;gap:9px;align-items:flex-start;background:#FFF3F0;border:1px solid #FAD9D2;border-radius:10px;padding:10px 12px">
+        <div style="width:18px;height:18px;border-radius:50%;background:#E9604C;flex:none;margin-top:1px;position:relative"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:800">★</div></div>
+        <div style="font-size:11.5px;line-height:1.4;color:#7A4034"><strong style="color:#C0432F">New position detected</strong> — congratulate Jenny on her new role.</div>
+      </div>
+      <!-- gift category chips -->
+      <div style="display:flex;gap:7px;padding:14px 14px 4px;flex-wrap:wrap">
+        <div style="font-size:11.5px;font-weight:600;color:#fff;background:#E9604C;border-radius:20px;padding:6px 12px">Flowers</div>
+        <div style="font-size:11.5px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:6px 12px">Coffee</div>
+        <div style="font-size:11.5px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:6px 12px">Chocolate</div>
+        <div style="font-size:11.5px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:6px 12px">Gift card</div>
+      </div>
+      <!-- selected gift -->
+      <div style="display:flex;gap:11px;align-items:center;margin:12px 14px;background:#FBF9F6;border:1px solid #ECE7E0;border-radius:10px;padding:10px">
+        <div style="width:46px;height:46px;border-radius:8px;background:repeating-linear-gradient(45deg,#F0D8D0,#F0D8D0 6px,#F6E6E0 6px,#F6E6E0 12px);flex:none"></div>
+        <div style="flex:1">
+          <div style="font-weight:700;font-size:13px;color:#1C1A17">Seasonal bouquet</div>
+          <div class="mono" style="font-size:10px;color:#9A938A;margin-top:2px">Free tier · delivered by partner</div>
+        </div>
+        <div style="font-weight:700;font-size:13px;color:#2F8F5B">€0</div>
+      </div>
+      <!-- message -->
+      <div style="margin:0 14px">
+        <div style="border:1px solid #ECE7E0;border-radius:10px;padding:10px 12px;font-size:12px;line-height:1.5;color:#3A352F">Jenny — congratulations on the new role! Well deserved. Let's catch up soon.<span style="color:#9A938A"> — Ivan</span></div>
+      </div>
+      <!-- send -->
+      <div style="padding:12px 14px 14px">
+        <div style="background:#E9604C;color:#fff;text-align:center;font-weight:700;font-size:14px;border-radius:10px;padding:11px;box-shadow:0 6px 16px rgba(233,96,76,.3)">Send gift &amp; message</div>
+        <div class="mono" style="text-align:center;font-size:9.5px;color:#9A938A;margin-top:9px">Recipient picks where to redeem · no address needed</div>
+      </div>
+      <!-- footer tabs -->
+      <div style="display:flex;border-top:1px solid #F1ECE5">
+        <div style="flex:1;text-align:center;padding:9px;font-size:11px;font-weight:700;color:#E9604C;border-top:2px solid #E9604C;margin-top:-1px">Gift</div>
+        <div style="flex:1;text-align:center;padding:9px;font-size:11px;color:#9A938A">Scheduled</div>
+        <div style="flex:1;text-align:center;padding:9px;font-size:11px;color:#9A938A">Sent</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ EXTENSION STATES ============ -->
+<div style="position:absolute;left:1140px;top:804px;width:300px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Flow states</div>
+
+  <!-- state: pick occasion -->
+  <div style="background:#fff;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:16px;margin-bottom:18px">
+    <div class="mono" style="font-size:9px;letter-spacing:.1em;color:#9A938A;margin-bottom:12px">STATE 1 · OCCASION</div>
+    <div style="font-weight:700;font-size:14px;color:#1C1A17;margin-bottom:12px">What are you celebrating?</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+      <div style="border:1.5px solid #E9604C;background:#FFF3F0;border-radius:10px;padding:11px;font-size:12px;font-weight:600;color:#1C1A17">★ New job</div>
+      <div style="border:1px solid #ECE7E0;border-radius:10px;padding:11px;font-size:12px;color:#6B655E">Work anniv.</div>
+      <div style="border:1px solid #ECE7E0;border-radius:10px;padding:11px;font-size:12px;color:#6B655E">Great call</div>
+      <div style="border:1px solid #ECE7E0;border-radius:10px;padding:11px;font-size:12px;color:#6B655E">Just because</div>
+    </div>
+  </div>
+
+  <!-- state: sent confirmation -->
+  <div style="background:#fff;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:20px 16px;text-align:center">
+    <div class="mono" style="font-size:9px;letter-spacing:.1em;color:#9A938A;margin-bottom:14px;text-align:left">STATE 2 · SENT</div>
+    <div style="width:50px;height:50px;border-radius:50%;background:#EAF5EE;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;color:#2F8F5B;font-size:24px;font-weight:800">✓</div>
+    <div style="font-weight:800;font-size:16px;color:#1C1A17">Gift on its way</div>
+    <div style="font-size:12px;color:#6B655E;margin-top:6px;line-height:1.5">Jenny gets a message with a link to redeem her bouquet.</div>
+    <div style="margin-top:16px;background:#FBF9F6;border:1px dashed #E0C7BF;border-radius:10px;padding:12px">
+      <div class="mono" style="font-size:9.5px;color:#9A938A">VIRAL LOOP</div>
+      <div style="font-size:11.5px;color:#3A352F;margin-top:5px;line-height:1.45">Jenny is invited to gift someone back — <strong style="color:#E9604C">her first one's free too.</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ WEB APP SECTION HEADER ============ -->
+<div style="position:absolute;left:80px;top:1500px;font:700 13px 'JetBrains Mono',monospace;letter-spacing:.18em;color:#9A938A">03 — WEB APP · givin.app</div>
+
+<!-- Dashboard: moments feed -->
+<div style="position:absolute;left:80px;top:1544px;width:520px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Dashboard — upcoming moments</div>
+  <div style="background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;overflow:hidden">
+    <div style="display:flex;align-items:center;gap:9px;padding:16px 20px;border-bottom:1px solid #F1ECE5">
+      <div style="position:relative;width:26px;height:26px;border-radius:7px;background:#E9604C;flex:none">
+        <div style="position:absolute;left:50%;top:6px;bottom:6px;width:3px;margin-left:-1.5px;background:#fff;border-radius:1px"></div>
+        <div style="position:absolute;top:50%;left:6px;right:6px;height:3px;margin-top:-1.5px;background:#fff;border-radius:1px"></div>
+      </div>
+      <span style="font-weight:800;font-size:16px;color:#1C1A17">Givin<span style="color:#E9604C">.</span></span>
+      <div style="flex:1"></div>
+      <span class="mono" style="font-size:10px;color:#2F8F5B;background:#EAF5EE;padding:4px 9px;border-radius:20px">3 free gifts</span>
+      <div style="width:28px;height:28px;border-radius:50%;background:#E6EBEE"></div>
+    </div>
+    <div style="padding:18px 20px">
+      <div style="font-weight:800;font-size:19px;color:#1C1A17;letter-spacing:-.01em">This week's moments</div>
+      <div style="font-size:12.5px;color:#9A938A;margin-top:3px">5 people in your network worth celebrating</div>
+
+      <!-- moment row -->
+      <div style="display:flex;align-items:center;gap:12px;margin-top:18px;padding:12px;border:1px solid #F1ECE5;border-radius:12px">
+        <div style="width:42px;height:42px;border-radius:50%;background:#C9D2D8;flex:none"></div>
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:700;font-size:14px;color:#1C1A17">Jenny Daza</div>
+          <div style="font-size:11.5px;color:#9A938A"><span style="color:#E9604C;font-weight:600">★ New position</span> · today</div>
+        </div>
+        <div style="background:#E9604C;color:#fff;font-weight:700;font-size:12px;border-radius:8px;padding:8px 14px">Gift</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;margin-top:10px;padding:12px;border:1px solid #F1ECE5;border-radius:12px">
+        <div style="width:42px;height:42px;border-radius:50%;background:#D8CFC9;flex:none"></div>
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:700;font-size:14px;color:#1C1A17">Markus Lind</div>
+          <div style="font-size:11.5px;color:#9A938A">5-year work anniversary · in 2 days</div>
+        </div>
+        <div style="border:1px solid #E5DED6;color:#6B655E;font-weight:700;font-size:12px;border-radius:8px;padding:8px 14px">Gift</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;margin-top:10px;padding:12px;border:1px solid #F1ECE5;border-radius:12px">
+        <div style="width:42px;height:42px;border-radius:50%;background:#CFD8D2;flex:none"></div>
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:700;font-size:14px;color:#1C1A17">Sofia Berg</div>
+          <div style="font-size:11.5px;color:#9A938A">Great intro call · yesterday</div>
+        </div>
+        <div style="border:1px solid #E5DED6;color:#6B655E;font-weight:700;font-size:12px;border-radius:8px;padding:8px 14px">Gift</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Catalog -->
+<div style="position:absolute;left:640px;top:1544px;width:430px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Catalog — free tier first</div>
+  <div style="background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:20px">
+    <div style="font-weight:800;font-size:18px;color:#1C1A17">Pick a gift</div>
+    <div style="display:flex;gap:7px;margin-top:12px;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:700;color:#fff;background:#1C1A17;border-radius:20px;padding:5px 11px">All</span>
+      <span style="font-size:11px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:5px 11px">Free €0</span>
+      <span style="font-size:11px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:5px 11px">Flowers</span>
+      <span style="font-size:11px;font-weight:600;color:#6B655E;background:#F4EFE9;border-radius:20px;padding:5px 11px">Coffee</span>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px">
+      <div style="border:1px solid #F1ECE5;border-radius:12px;overflow:hidden">
+        <div style="height:84px;background:repeating-linear-gradient(45deg,#F0D8D0,#F0D8D0 7px,#F6E6E0 7px,#F6E6E0 14px);position:relative"><span class="mono" style="position:absolute;left:8px;top:8px;font-size:9px;color:#fff;background:#2F8F5B;padding:2px 7px;border-radius:20px">FREE</span></div>
+        <div style="padding:10px"><div style="font-weight:700;font-size:12.5px;color:#1C1A17">Bouquet</div><div class="mono" style="font-size:10px;color:#9A938A;margin-top:2px">€0 · partner</div></div>
+      </div>
+      <div style="border:1px solid #F1ECE5;border-radius:12px;overflow:hidden">
+        <div style="height:84px;background:repeating-linear-gradient(45deg,#E5DDD2,#E5DDD2 7px,#F0EAE0 7px,#F0EAE0 14px);position:relative"><span class="mono" style="position:absolute;left:8px;top:8px;font-size:9px;color:#fff;background:#2F8F5B;padding:2px 7px;border-radius:20px">FREE</span></div>
+        <div style="padding:10px"><div style="font-weight:700;font-size:12.5px;color:#1C1A17">Coffee voucher</div><div class="mono" style="font-size:10px;color:#9A938A;margin-top:2px">€0 · partner</div></div>
+      </div>
+      <div style="border:1px solid #F1ECE5;border-radius:12px;overflow:hidden">
+        <div style="height:84px;background:repeating-linear-gradient(45deg,#D8CEE0,#D8CEE0 7px,#E6DEF0 7px,#E6DEF0 14px)"></div>
+        <div style="padding:10px"><div style="font-weight:700;font-size:12.5px;color:#1C1A17">Chocolate box</div><div class="mono" style="font-size:10px;color:#9A938A;margin-top:2px">€9</div></div>
+      </div>
+      <div style="border:1px solid #F1ECE5;border-radius:12px;overflow:hidden">
+        <div style="height:84px;background:repeating-linear-gradient(45deg,#CFD8D2,#CFD8D2 7px,#DFE8E2 7px,#DFE8E2 14px)"></div>
+        <div style="padding:10px"><div style="font-weight:700;font-size:12.5px;color:#1C1A17">Gift card</div><div class="mono" style="font-size:10px;color:#9A938A;margin-top:2px">€10–100</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Send / schedule -->
+<div style="position:absolute;left:1110px;top:1544px;width:330px">
+  <div data-drags-parent="1" style="position:absolute;top:-22px;font:500 11px 'JetBrains Mono',monospace;color:rgba(60,50,40,.6)">Compose &amp; schedule</div>
+  <div style="background:#fff;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,.08);border:1px solid #ECE7E0;padding:20px">
+    <div style="display:flex;align-items:center;gap:10px;padding-bottom:14px;border-bottom:1px solid #F1ECE5">
+      <div style="width:38px;height:38px;border-radius:50%;background:#C9D2D8;flex:none"></div>
+      <div><div style="font-weight:700;font-size:14px;color:#1C1A17">To Jenny Daza</div><div style="font-size:11px;color:#9A938A">Seasonal bouquet · €0</div></div>
+    </div>
+    <div class="mono" style="font-size:10px;letter-spacing:.1em;color:#9A938A;margin:16px 0 7px">MESSAGE</div>
+    <div style="border:1px solid #ECE7E0;border-radius:10px;padding:11px;font-size:12.5px;line-height:1.5;color:#3A352F;min-height:64px">Congratulations on the new role, Jenny! Well deserved — let's grab a coffee soon.</div>
+    <div class="mono" style="font-size:10px;letter-spacing:.1em;color:#9A938A;margin:16px 0 7px">DELIVERY</div>
+    <div style="display:flex;gap:8px">
+      <div style="flex:1;border:1.5px solid #E9604C;background:#FFF3F0;border-radius:10px;padding:10px;text-align:center;font-size:12px;font-weight:600;color:#1C1A17">Send now</div>
+      <div style="flex:1;border:1px solid #ECE7E0;border-radius:10px;padding:10px;text-align:center;font-size:12px;color:#6B655E">Schedule</div>
+    </div>
+    <div style="background:#E9604C;color:#fff;text-align:center;font-weight:700;font-size:14px;border-radius:10px;padding:12px;margin-top:16px;box-shadow:0 6px 16px rgba(233,96,76,.3)">Send gift</div>
+    <div class="mono" style="text-align:center;font-size:9.5px;color:#9A938A;margin-top:10px">Free tier · 3 of 3 remaining this month</div>
+  </div>
+</div>
+
+<!-- post-it note -->
+<div style="position:absolute;left:1480px;top:840px;width:200px;background:#FFF3D6;padding:14px;font:12px/1.45 'Hanken Grotesk',sans-serif;color:#6B5A2E;box-shadow:0 2px 8px rgba(0,0,0,.1);transform:rotate(-1.5deg);border-radius:2px">
+  <strong>Why free-first?</strong><br>The free bouquet is the growth engine. Recipients become senders. Margin comes later from gift cards &amp; team plans.
+</div>
+</x-dc>
+</body>
+</html>

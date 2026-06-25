@@ -1,0 +1,38 @@
+/* Givin launcher button — floats bottom-right on a profile page. */
+#givin-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 16px 10px 12px;
+  background: #E9604C;
+  color: #fff;
+  font-family: "Hanken Grotesk", -apple-system, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 22px rgba(233, 96, 76, 0.45);
+  cursor: pointer;
+}
+#givin-launcher:hover { background: #D44C39; }
+
+#givin-launcher .givin-tile {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  background: #fff;
+  flex: none;
+}
+#givin-launcher .givin-tile i:nth-child(1) {
+  position: absolute; left: 50%; top: 5px; bottom: 5px;
+  width: 2.5px; margin-left: -1.25px; background: #E9604C; border-radius: 1px;
+}
+#givin-launcher .givin-tile i:nth-child(2) {
+  position: absolute; top: 50%; left: 5px; right: 5px;
+  height: 2.5px; margin-top: -1.25px; background: #E9604C; border-radius: 1px;
+}
