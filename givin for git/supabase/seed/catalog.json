@@ -1,0 +1,52 @@
+{
+  "_comment": "Givin gift catalog v1. tier: free|trial|paid · gift_type: digital|trial|physical. Mirror of supabase/migrations/0002_catalog.sql for use in Lovable or any JS seed. VERIFY trial program terms (some restrict incentivized signups) and current trial lengths before relying on trial_days.",
+  "free_digital": [
+    { "slug": "pg-ebook", "title": "A classic e-book", "category": "ebook", "source_url": "https://www.gutenberg.org", "notes": "Project Gutenberg — 70k+ public-domain titles" },
+    { "slug": "standard-ebooks", "title": "A beautifully-set e-book", "category": "ebook", "source_url": "https://standardebooks.org", "notes": "Standard Ebooks" },
+    { "slug": "open-library", "title": "Borrow any book", "category": "ebook", "source_url": "https://openlibrary.org", "notes": "Open Library / Internet Archive" },
+    { "slug": "manybooks", "title": "Pick from ManyBooks", "category": "ebook", "source_url": "https://manybooks.net", "notes": "Free fiction & non-fiction" },
+    { "slug": "wikibooks", "title": "An open textbook", "category": "ebook", "source_url": "https://www.wikibooks.org", "notes": "Open-content textbooks" },
+    { "slug": "bookboon", "title": "A free business textbook", "category": "ebook", "source_url": "https://bookboon.com", "notes": "Business & study e-books (ad-supported)" },
+    { "slug": "librivox", "title": "A free audiobook", "category": "audiobook", "source_url": "https://librivox.org", "notes": "LibriVox — volunteer-read public domain" },
+    { "slug": "archive-audio", "title": "Archive audiobook", "category": "audiobook", "source_url": "https://archive.org/details/audio", "notes": "Internet Archive audio" },
+    { "slug": "lit2go", "title": "Lit2Go audiobook", "category": "audiobook", "source_url": "https://etc.usf.edu/lit2go/", "notes": "Stories & poems" },
+    { "slug": "musopen", "title": "Classical music", "category": "music", "source_url": "https://musopen.org", "notes": "Royalty-free classical" },
+    { "slug": "free-music-arch", "title": "A music playlist", "category": "music", "source_url": "https://freemusicarchive.org", "notes": "Free Music Archive — CC-licensed" },
+    { "slug": "jamendo", "title": "Indie music", "category": "music", "source_url": "https://www.jamendo.com", "notes": "Free music with license" },
+    { "slug": "ccmixter", "title": "Remixable music", "category": "music", "source_url": "http://ccmixter.org", "notes": "CC remix community" },
+    { "slug": "archive-films", "title": "A classic film", "category": "film", "source_url": "https://archive.org/details/feature_films", "notes": "Public-domain feature films" },
+    { "slug": "openculture-film", "title": "Curated free movies", "category": "film", "source_url": "https://www.openculture.com/freemoviesonline", "notes": "Open Culture list" },
+    { "slug": "khan-academy", "title": "A learning track", "category": "learning", "source_url": "https://www.khanacademy.org", "notes": "Khan Academy" },
+    { "slug": "mit-ocw", "title": "A university course", "category": "learning", "source_url": "https://ocw.mit.edu", "notes": "MIT OpenCourseWare" },
+    { "slug": "freecodecamp", "title": "Learn to code", "category": "learning", "source_url": "https://www.freecodecamp.org", "notes": "freeCodeCamp" }
+  ],
+  "trial_revenue_share": [
+    { "slug": "audible-trial", "title": "Audible trial", "category": "audiobook", "provider": "Audible", "source_url": "https://www.audible.com", "trial_days": 30 },
+    { "slug": "blinkist-trial", "title": "Blinkist trial", "category": "audiobook", "provider": "Blinkist", "source_url": "https://www.blinkist.com", "trial_days": 7 },
+    { "slug": "shortform-trial", "title": "Shortform trial", "category": "audiobook", "provider": "Shortform", "source_url": "https://www.shortform.com", "trial_days": 5 },
+    { "slug": "everand-trial", "title": "Everand trial", "category": "audiobook", "provider": "Everand (Scribd)", "source_url": "https://www.everand.com", "trial_days": 30 },
+    { "slug": "spotify-trial", "title": "Spotify Premium trial", "category": "music", "provider": "Spotify", "source_url": "https://www.spotify.com/premium", "trial_days": 30 },
+    { "slug": "apple-music-trial", "title": "Apple Music trial", "category": "music", "provider": "Apple Music", "source_url": "https://music.apple.com", "trial_days": 30 },
+    { "slug": "youtube-premium", "title": "YouTube Premium trial", "category": "music", "provider": "YouTube", "source_url": "https://www.youtube.com/premium", "trial_days": 30 },
+    { "slug": "linkedin-learning", "title": "LinkedIn Learning trial", "category": "learning", "provider": "LinkedIn Learning", "source_url": "https://www.linkedin.com/learning", "trial_days": 30 },
+    { "slug": "skillshare-trial", "title": "Skillshare trial", "category": "learning", "provider": "Skillshare", "source_url": "https://www.skillshare.com", "trial_days": 30 },
+    { "slug": "coursera-plus", "title": "Coursera Plus trial", "category": "learning", "provider": "Coursera", "source_url": "https://www.coursera.org", "trial_days": 7 },
+    { "slug": "masterclass-gift", "title": "MasterClass", "category": "learning", "provider": "MasterClass", "source_url": "https://www.masterclass.com", "trial_days": null },
+    { "slug": "headspace-trial", "title": "Headspace trial", "category": "wellbeing", "provider": "Headspace", "source_url": "https://www.headspace.com", "trial_days": 14 },
+    { "slug": "calm-trial", "title": "Calm trial", "category": "wellbeing", "provider": "Calm", "source_url": "https://www.calm.com", "trial_days": 7 },
+    { "slug": "nyt-trial", "title": "New York Times trial", "category": "reading", "provider": "NYT", "source_url": "https://www.nytimes.com", "trial_days": null },
+    { "slug": "economist-trial", "title": "The Economist trial", "category": "reading", "provider": "The Economist", "source_url": "https://www.economist.com", "trial_days": null },
+    { "slug": "medium-trial", "title": "Medium membership trial", "category": "reading", "provider": "Medium", "source_url": "https://medium.com/membership", "trial_days": null },
+    { "slug": "notion-trial", "title": "Notion Plus trial", "category": "tools", "provider": "Notion", "source_url": "https://www.notion.so", "trial_days": null },
+    { "slug": "canva-pro-trial", "title": "Canva Pro trial", "category": "tools", "provider": "Canva", "source_url": "https://www.canva.com", "trial_days": 30 },
+    { "slug": "grammarly-trial", "title": "Grammarly Premium trial", "category": "tools", "provider": "Grammarly", "source_url": "https://www.grammarly.com", "trial_days": 7 }
+  ],
+  "paid_physical": [
+    { "slug": "seasonal-bouquet", "title": "Seasonal bouquet", "category": "flowers", "value_cents": 1900, "fulfillment": "tremendous" },
+    { "slug": "coffee-voucher", "title": "Coffee voucher", "category": "coffee", "value_cents": 500, "fulfillment": "tremendous" },
+    { "slug": "chocolate-box", "title": "Chocolate box", "category": "chocolate", "value_cents": 900, "fulfillment": "tremendous" },
+    { "slug": "gift-card-10", "title": "Gift card \u20ac10", "category": "giftcard", "value_cents": 1000, "fulfillment": "tremendous" },
+    { "slug": "gift-card-25", "title": "Gift card \u20ac25", "category": "giftcard", "value_cents": 2500, "fulfillment": "tremendous" },
+    { "slug": "gift-card-50", "title": "Gift card \u20ac50", "category": "giftcard", "value_cents": 5000, "fulfillment": "tremendous" }
+  ]
+}
