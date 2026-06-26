@@ -1,0 +1,23 @@
+/* Givin launcher button — floats bottom-right on a profile page. */
+#givin-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 16px 10px 12px;
+  background: #E21E48;
+  color: #fff;
+  font-family: "Hanken Grotesk", -apple-system, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 22px rgba(226, 30, 72, 0.45);
+  cursor: pointer;
+}
+#givin-launcher:hover { background: #C81848; }
+
+#givin-launcher svg { display: block; flex: none; }

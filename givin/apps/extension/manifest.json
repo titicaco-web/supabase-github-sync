@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Givin — Send a gift",
+  "version": "0.1.0",
+  "description": "Send a thoughtful gift to a professional contact in seconds. A thin launcher — it never scrapes or messages on your behalf.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Givin",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
